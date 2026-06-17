@@ -70,7 +70,7 @@
                 </td>
                 <td>2018-04-10</td>
                 <td>
-                    <a href="#" class="btn view">View</a>
+                    <a href="/posts/{{$post['id']}}" class="btn view">View</a>
                     <a href="#" class="btn edit">Edit</a>
                     <a href="#" class="btn delete">Delete</a>
                 </td>
