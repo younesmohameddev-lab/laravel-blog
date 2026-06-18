@@ -28,4 +28,13 @@ class PostController extends Controller
         'postId'=> $postId,
     ]);
     }
+
+    public function create(){
+        return view('posts.create');
+    }
+
+    public function store( $request)
+{
+    dd($request->all());
+}
 }

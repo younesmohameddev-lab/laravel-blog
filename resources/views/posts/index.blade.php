@@ -44,6 +44,9 @@
     </style>
 </head>
 <body>
+    <a href="/posts/create">
+    Create Post
+    </a>
 
     <table>
         <thead>
